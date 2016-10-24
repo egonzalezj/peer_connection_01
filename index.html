@@ -1,0 +1,44 @@
+<!--
+* File name: index.html
+* Description:
+* Stream capture demo.
+* Makes a basic peer connection.
+* Author: Elisabet González.
+* Source:
+* Date: October 5th, 2016.
+* Version 1.0
+*
+* History:
+* v1.0  05/10/2016  Peer connection testing.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Peer connection (Video) Demo</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="main.css">
+      <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+    </head>
+
+<body>
+  <div id="container">
+    <h1>
+      Simple Peer Connection (Video) v1.0
+    </h1>
+    <video id="localVideo" autoplay muted></video>
+    <video id="remoteVideo" autoplay></video>
+
+    <div>
+      <button id="startButton">Start</button>
+      <button id="callButton">Call</button>
+      <button id="hangupButton">Hang Up</button>
+    </div>
+  </div>
+
+  <script src="js/adapter.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/lib/ga.js"></script>
+</body>
+</html>
